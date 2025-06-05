@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="bodyContent">
+      <header>
+        <h1>Contact Us</h1>
+        <p class="margin">Let us know how we can help</p>
+      </header>
+      <nav class="margin">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="madison.html">Madison</a></li>
+          <li><a href="mondovi.html">Mondovi</a></li>
+          <li><a href="greenbay.html">Green Bay</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <figure class="imageContainer">
+        <img src="./images/Screenshot_2024-08-25_144403.png" alt="Screenshot of Outlook mailbox.">
+        <figcaption>
+          <span>
+            Screenshot by <a href="https://www.linkedin.com/in/joshua-werlein-901241241/" target="_blank">Joshua Werlein</a>
+          </span>
+        </figcaption>
+      </figure>
+      <div class="contactLayout">
+        <form autocomplete="on" class="contact">
+          <fieldset>
+            <legend>Contact Information</legend>
+
+            <div class="formInput">
+              <label for="fName">First Name:</label>
+              <input type="text" id="fName" name="fName" placeholder="First Name" autocomplete="on" required>
+
+              <label for="lName">Last Name:</label>
+              <input type="text" id="lName" name="lName" placeholder="Last Name" autocomplete="on" required>
+
+              <label for="email" id="emailLabel">Email:</label>
+              <input type="email" id="email" placeholder="Email" autocomplete="on" required>
+
+              <label for="cEmail" id="cEmailLabel">Confirm Email:</label>
+              <input type="email" id="cEmail" placeholder="Confirm Email" autocomplete="on" required>
+            </div>
+            <div class="messageArea">
+              <div>
+                <label for="message" id="positionMessage">Message:</label>
+                <button type="submit" class="button">Send</button>
+              </div>
+              <textarea name="message" id="message" rows="7" cols="150" maxlength="1040" placeholder="Questions or Concerns"></textarea>
+            </div>
+             <blockquote class="badgr-badge" style="font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;"><a href="https://api.badgr.io/public/assertions/BaBJjI33TTGaC4D_9yEmWw?identity__email=jwerlei%40wgu.edu"><img width="120px" height="120px" src="https://api.badgr.io/public/assertions/BaBJjI33TTGaC4D_9yEmWw/image"></a><p class="badgr-badge-name" style="hyphens: auto; overflow-wrap: break-word; word-wrap: break-word; margin: 0; font-size: 16px; font-weight: 600; font-style: normal; font-stretch: normal; line-height: 1.25; letter-spacing: normal; text-align: left; color: #05012c;">WGU Certificate: Front-End Developer</p><p class="badgr-badge-date" style="margin: 0; font-size: 12px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #555555;"><strong style="font-size: 12px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #000;">Awarded: </strong>Sep 28, 2024</p><p class="badgr-badge-recipient" style="margin: 0; font-size: 12px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #555555;"><strong style="font-size: 12px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #000;">Awarded To: </strong><span style="display: block;"> Joshua J Werlein</span></p><p style="margin: 16px 0; padding: 0;"><a class="badgr-badge-verify" target="_blank" href="https://badgecheck.io?url=https%3A%2F%2Fapi.badgr.io%2Fpublic%2Fassertions%2FBaBJjI33TTGaC4D_9yEmWw%3Fidentity__email%3Djwerlei%2540wgu.edu&amp;identity__email=jwerlei%40wgu.edu" style="box-sizing: content-box; display: flex; align-items: center; justify-content: center; margin: 0; font-size:14px; font-weight: bold; width: 48px; height: 16px; border-radius: 4px; border: solid 1px black; text-decoration: none; padding: 6px 16px; margin: 16px 0; color: black;">VERIFY</a></p><script async="async" src="https://wgu.badgr.com/assets/widgets.bundle.js"></script></blockquote>
+          </fieldset>
+        </form>
+      </div>
+      <footer>
+        <p>&copy; 2024 Joshua Werlein. All rights reserved.</p>
+        <p class="smallText">Contact: <a href="mailto:jwerlei@wgu.com">jwerlei@wgu.com</a></p>
+      </footer>
+    </div>
+    <script src="./js/wisconsin.js"></script>
+  </body>
+</html>
